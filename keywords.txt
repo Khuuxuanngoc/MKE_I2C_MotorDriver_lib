@@ -1,19 +1,45 @@
 #######################################
-# Syntax Coloring Map for exp:HCSR04  #
+# Syntax Coloring Map
 #######################################
 
 #######################################
-#       Datatypes (KEYWORD1)          # 
+# Datatypes (KEYWORD1)
 #######################################
 
-HCSR04	KEYWORD1
+MKE_I2C_MotorDriver	KEYWORD1
+MKE_I2C_MotorDriver_L9110	KEYWORD1
+MKE_I2C_MotorDriver_BD62130	KEYWORD1
+MKE_M17_MotorDriver	KEYWORD1
+MKE_M18_MotorDriver	KEYWORD1
 
 #######################################
-#  Methods and Functions (KEYWORD2)   #
+# Methods and Functions (KEYWORD2)
 #######################################
 
-dist	KEYWORD2
+begin	KEYWORD2
+motorA_CW	KEYWORD2
+motorA_CCW	KEYWORD2
+stopMotorA	KEYWORD2
+motorB_CW	KEYWORD2
+motorB_CCW	KEYWORD2
+stopMotorB	KEYWORD2
+stopAll	KEYWORD2
+setPwmFrequency	KEYWORD2
+setPwmMA1	KEYWORD2
+setPwmMA2	KEYWORD2
+setPwmMB1	KEYWORD2
+setPwmMB2	KEYWORD2
+getVin	KEYWORD2
+getAddress	KEYWORD2
+getFirmwareVersion	KEYWORD2
+getModuleId	KEYWORD2
+getProductCode	KEYWORD2
+setAddress	KEYWORD2
+enableAdminMode	KEYWORD2
 
 #######################################
-#         Constants (LITERAL1)        #
+# Constants (LITERAL1)
 #######################################
+
+MKE_MOTOR_DEFAULT_ADDRESS	LITERAL1
+MKE_MOTOR_I2C_REGION	LITERAL1
